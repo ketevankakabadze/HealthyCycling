@@ -164,7 +164,7 @@ def visualization_streamlit(short_route, healthy_route):
 
 if __name__ == '__main__':
 
-    st.title('Bikes app')
+    st.title('Healthy Cycling')
     st.write('Please select where to go from and to')
     file = 'BCN_streets_geo.csv'
 
