@@ -1,0 +1,32 @@
+name: immosensing
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - jupyter
+  - notebook
+  - matplotlib
+  - rasterio
+  - rasterstats
+  - pandas
+  - geopandas
+  - fiona
+  - shapely
+  - anaconda-navigator
+  - mysql-connector-python
+  - sentinelhub
+  - scikit-learn
+  - descartes
+  - git
+  - networkx
+  - folium
+  - momepy
+  - pydeck
+  - pip
+  - pip:
+      - pyroSAR
+      - sentinelsat
+      - streamlit
