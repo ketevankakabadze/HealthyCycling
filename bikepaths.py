@@ -11,6 +11,7 @@ from sklearn.neighbors import KDTree
 import networkx as nx
 
 import requests
+from PIL import Image
 
 def OpenData(fileName):
     data=pd.read_csv(fileName)
@@ -167,6 +168,10 @@ if __name__ == '__main__':
     st.title('Healthy Cycling')
     st.write('Please select where to go from and to')
     file = 'BCN_streets_geo.csv'
+
+    image = Image.open('logo.jpg')
+    st.image(image, caption='Healthy Cycling Healthy Life', use_column_width=True)
+
 
     user_input_from = st.text_input("From", "Carrer del Comte d'Urgell, 55")
     user_input_to = st.text_input("To", "Arc de Triomf")
