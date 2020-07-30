@@ -166,12 +166,10 @@ def visualization_streamlit(short_route, healthy_route):
 if __name__ == '__main__':
 
     st.title('Healthy Cycling')
-    st.write('Please select where to go from and to')
-    file = 'BCN_streets_geo.csv'
-
     image = Image.open('logo.jpg')
     st.image(image, caption='Healthy Cycling Healthy Life', use_column_width=True)
-
+    st.write('Please select where to go from and to')
+    file = 'BCN_streets_geo.csv'
 
     user_input_from = st.text_input("From", "Carrer del Comte d'Urgell, 55")
     user_input_to = st.text_input("To", "Arc de Triomf")
