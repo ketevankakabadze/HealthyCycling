@@ -1,2 +1,0 @@
-# HealthyCycling
-Final_Project
