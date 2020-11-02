@@ -40,7 +40,7 @@ def GeoData(data):
 #call google APi and get coords from destination and source
 def get_geocords(address):
     GOOGLE_MAPS_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json'
-    api_key = 'AIzaSyBsBTB1fNkW8K6PK38nmPRZDbafSGU76o0'
+    api_key = '**********'
     params = {
             'address': address,
             'sensor': 'false',
